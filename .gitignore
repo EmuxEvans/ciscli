@@ -1,0 +1,22 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Compiled Binaries
+a.out
+
+# Vim Swap/Backup Files
+*.swp
+*~
+
+# Doxygen generated folder
+/doc

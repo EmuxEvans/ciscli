@@ -1,0 +1,15 @@
+digraph CLI {
+    init [shape=box,color=green];
+    eol [shape=octagon,color=red];
+    init -> show;
+    show -> show_interface;
+    show -> interface [style=dashed];
+    show_interface [label="interface"];
+    show_interface -> statistics [style=dashed];
+    show_interface -> eol;
+    statistics -> eol;
+    interface -> up;
+    up -> down [style=dashed];
+    up -> eol;
+    down -> eol;
+}
